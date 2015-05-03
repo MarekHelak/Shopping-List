@@ -8,8 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
 
+@property IBOutlet UITableView *tableView;
+
+- (IBAction)clickPlus:(id)sender;
+- (IBAction)clickEdit:(id)sender;
 
 @end
 

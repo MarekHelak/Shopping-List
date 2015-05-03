@@ -76,11 +76,9 @@ canEditRowAtIndexPath:(NSIndexPath *)indexPath{
     
     if (cell.accessoryType == UITableViewCellAccessoryCheckmark)
     {
-        [tableView cellForRowAtIndexPath:indexPath]
-        .accessoryType = UITableViewCellAccessoryNone;
+        [tableView cellForRowAtIndexPath:indexPath].accessoryType = UITableViewCellAccessoryNone;
     } else {
-        [tableView cellForRowAtIndexPath:indexPath]
-        .accessoryType = UITableViewCellAccessoryCheckmark;
+        [tableView cellForRowAtIndexPath:indexPath].accessoryType = UITableViewCellAccessoryCheckmark;
     }
     NSLog(@"%@ was selected", @(selectedRowTemplate));
 }
@@ -127,8 +125,7 @@ canEditRowAtIndexPath:(NSIndexPath *)indexPath{
                     //Insert to table
                     NSIndexPath *index = [NSIndexPath indexPathForRow:0 inSection:0];
                     [items insertObject:text atIndex:0];
-                    [self.tableView insertRowsAtIndexPaths:@[index]
-                    withRowAnimation:UITableViewRowAnimationAutomatic];
+                
                     }
                  else {
                     //Dismiss
@@ -201,7 +198,7 @@ canEditRowAtIndexPath:(NSIndexPath *)indexPath{
                              {
                                  //Replace items and reload
                                  [items replaceObjectAtIndex:selectedRowTemplate withObject:text];
-                                 [self.tableView reloadData];
+                     
                                  
                              }
                              else {
@@ -213,7 +210,7 @@ canEditRowAtIndexPath:(NSIndexPath *)indexPath{
     UIAlertAction* cancel = [UIAlertAction
                              actionWithTitle:@"Cancel"
                              style:UIAlertActionStyleDefault
-                             handler:^(UIAlertAction *action)
+
                              {
                                  // Dismiss
                              }];
@@ -227,5 +224,6 @@ canEditRowAtIndexPath:(NSIndexPath *)indexPath{
     [self presentViewController:alert animated:true completion:nil];
     }
 }
+
 
 @end

@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EA46994D1AF02E73000BA0E9 /* free-paper-texture-10.png in Resources */ = {isa = PBXBuildFile; fileRef = EA46994C1AF02E73000BA0E9 /* free-paper-texture-10.png */; };
+		EA46994F1AF034F5000BA0E9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA46994E1AF034F5000BA0E9 /* ViewController.m */; };
+		EA4699551AF03735000BA0E9 /* TableView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4699541AF03735000BA0E9 /* TableView.m */; };
 		EAC379411AE56ACE0043AC78 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC379401AE56ACE0043AC78 /* main.m */; };
 		EAC379441AE56ACE0043AC78 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC379431AE56ACE0043AC78 /* AppDelegate.m */; };
-		EAC379471AE56ACE0043AC78 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC379461AE56ACE0043AC78 /* ViewController.m */; };
 		EAC3794A1AE56ACE0043AC78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAC379481AE56ACE0043AC78 /* Main.storyboard */; };
 		EAC3794C1AE56ACE0043AC78 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAC3794B1AE56ACE0043AC78 /* Images.xcassets */; };
 		EAC3794F1AE56ACE0043AC78 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAC3794D1AE56ACE0043AC78 /* LaunchScreen.xib */; };
@@ -27,13 +29,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EA46994C1AF02E73000BA0E9 /* free-paper-texture-10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "free-paper-texture-10.png"; sourceTree = "<group>"; };
+		EA46994E1AF034F5000BA0E9 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EA4699531AF03735000BA0E9 /* TableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableView.h; sourceTree = "<group>"; };
+		EA4699541AF03735000BA0E9 /* TableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableView.m; sourceTree = "<group>"; };
 		EAC3793B1AE56ACE0043AC78 /* ShoppingList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShoppingList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAC3793F1AE56ACE0043AC78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EAC379401AE56ACE0043AC78 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EAC379421AE56ACE0043AC78 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EAC379431AE56ACE0043AC78 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		EAC379451AE56ACE0043AC78 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		EAC379461AE56ACE0043AC78 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		EAC379491AE56ACE0043AC78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EAC3794B1AE56ACE0043AC78 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		EAC3794E1AE56ACE0043AC78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -81,10 +86,12 @@
 		EAC3793D1AE56ACE0043AC78 /* ShoppingList */ = {
 			isa = PBXGroup;
 			children = (
+				EA4699531AF03735000BA0E9 /* TableView.h */,
+				EA4699541AF03735000BA0E9 /* TableView.m */,
 				EAC379421AE56ACE0043AC78 /* AppDelegate.h */,
 				EAC379431AE56ACE0043AC78 /* AppDelegate.m */,
 				EAC379451AE56ACE0043AC78 /* ViewController.h */,
-				EAC379461AE56ACE0043AC78 /* ViewController.m */,
+				EA46994E1AF034F5000BA0E9 /* ViewController.m */,
 				EAC379481AE56ACE0043AC78 /* Main.storyboard */,
 				EAC3794B1AE56ACE0043AC78 /* Images.xcassets */,
 				EAC3794D1AE56ACE0043AC78 /* LaunchScreen.xib */,
@@ -96,6 +103,7 @@
 		EAC3793E1AE56ACE0043AC78 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EA46994C1AF02E73000BA0E9 /* free-paper-texture-10.png */,
 				EAC3793F1AE56ACE0043AC78 /* Info.plist */,
 				EAC379401AE56ACE0043AC78 /* main.m */,
 			);
@@ -202,6 +210,7 @@
 				EAC3794A1AE56ACE0043AC78 /* Main.storyboard in Resources */,
 				EAC3794F1AE56ACE0043AC78 /* LaunchScreen.xib in Resources */,
 				EAC3794C1AE56ACE0043AC78 /* Images.xcassets in Resources */,
+				EA46994D1AF02E73000BA0E9 /* free-paper-texture-10.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,8 +228,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EAC379471AE56ACE0043AC78 /* ViewController.m in Sources */,
+				EA46994F1AF034F5000BA0E9 /* ViewController.m in Sources */,
 				EAC379441AE56ACE0043AC78 /* AppDelegate.m in Sources */,
+				EA4699551AF03735000BA0E9 /* TableView.m in Sources */,
 				EAC379411AE56ACE0043AC78 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -350,6 +360,7 @@
 				INFOPLIST_FILE = ShoppingList/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -360,6 +371,7 @@
 				INFOPLIST_FILE = ShoppingList/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -416,6 +428,7 @@
 				EAC379601AE56ACE0043AC78 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EAC379611AE56ACE0043AC78 /* Build configuration list for PBXNativeTarget "ShoppingListTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +437,7 @@
 				EAC379631AE56ACE0043AC78 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
